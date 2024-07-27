@@ -9,6 +9,7 @@
   },
   "url": "https://github.com/John-Bomann/court-of-blades/",
   "manifest": "https://raw.githubusercontent.com/John-Bomann/court-of-blades/main/system.json",
+  "download": "https://github.com/John-Bomann/court-of-blades/archive/refs/heads/main.zip",
   "authors": [{ "name": "hex" }],
   "esmodules": ["module/blades.js"],
   "styles": ["styles/blades.css"],
