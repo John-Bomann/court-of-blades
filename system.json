@@ -1,0 +1,21 @@
+{
+  "id": "court-of-blades",
+  "title": "Court of Blades",
+  "description": "Court of Blades game system.",
+  "version": "1.0",
+  "compatibility": {
+    "minimum": 11,
+    "verified": "12.327"
+  },
+  "url": "https://github.com/John-Bomann/court-of-blades/",
+  "authors": [{ "name": "hex" }],
+  "esmodules": ["module/blades.js"],
+  "styles": ["styles/blades.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ]
+}
