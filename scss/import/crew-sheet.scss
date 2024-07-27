@@ -1,14 +1,12 @@
 $coin_size: 15px;
 $coin_margin: 3px;
 
-@import 'coins.scss';
+@import "coins.scss";
 
 .item {
-
   justify-content: space-between;
 
   .item-body {
-
     margin-bottom: 10px;
     * {
       margin-right: 10px;
@@ -37,8 +35,7 @@ $coin_margin: 3px;
 }
 
 .name,
-.lair,
-{
+.lair {
   margin-bottom: 10px;
 }
 
@@ -48,10 +45,9 @@ form {
   }
 }
 
-nav{
+nav {
   padding-bottom: 10px;
 }
-
 
 // Crew Coins
 .crew-coins {
@@ -65,11 +61,15 @@ nav{
   }
 }
 
-
 // Reputation
 .crew-reputation {
   border-top: 3px solid $almost_black;
-  @include toothradio(17px, 50px, "assets/teeth/stresstooth-halfgrey.png", "assets/teeth/stresstooth-red.png");
+  @include toothradio(
+    17px,
+    50px,
+    "assets/teeth/stresstooth-halfgrey.png",
+    "assets/teeth/stresstooth-red.png"
+  );
 
   input:disabled + label {
     background-image: url(assets/teeth/stresstooth-black.png);
@@ -84,7 +84,6 @@ nav{
 }
 
 .turf-list {
-
   display: flex;
   flex-direction: column;
   width: 855px;
@@ -117,12 +116,16 @@ nav{
 
 .crew-hold {
   border-top: 3px solid $almost_black;
-  @include toothradio_single(17px, 50px, "assets/teeth/stresstooth-halfgrey.png", "assets/teeth/stresstooth-red.png");
+  @include toothradio_single(
+    17px,
+    50px,
+    "assets/teeth/stresstooth-halfgrey.png",
+    "assets/teeth/stresstooth-red.png"
+  );
   width: 221px;
 }
 
 .crew-tier {
-
   background-color: $gray;
   height: 33px;
   width: 145px;
@@ -135,14 +138,13 @@ nav{
   > * {
     margin-right: 5px;
   }
-
 }
 
 .heat-wanted {
   //justify-content: none;
-  .small-teeth{
+  .small-teeth {
     height: 20px;
-    label{
+    label {
       height: 100%;
       width: 100%;
       cursor: default;
@@ -163,25 +165,20 @@ nav{
   }
 }
 
-// Cohorts styling
+// Retinues styling
 .edgeflaw {
-
   input {
     display: none;
 
     &:checked {
-
       & + label {
         color: $red;
       }
-
     }
   }
-
 }
 
 .gang-expert-type-selector {
-
   .gang-type-boxes {
     flex-wrap: wrap;
   }
@@ -270,7 +267,6 @@ nav{
 }
 
 .big-teeth-section {
-
   border-top: 3px solid $almost_black;
   display: flex;
   flex-direction: row;
@@ -290,14 +286,24 @@ nav{
 
   // Stress
   .big-teeth {
-    @include toothradio(17px, 50px, "assets/teeth/stresstooth-halfgrey.png", "assets/teeth/stresstooth-red.png");
+    @include toothradio(
+      17px,
+      50px,
+      "assets/teeth/stresstooth-halfgrey.png",
+      "assets/teeth/stresstooth-red.png"
+    );
   }
 
   /* Trauma */
   .small-teeth-container {
-
     .small-teeth-wrap {
-      @include toothradio(17px, 50px, "assets/teeth/shorttooth-grey.png", "assets/teeth/shorttooth-red.png", false);
+      @include toothradio(
+        17px,
+        50px,
+        "assets/teeth/shorttooth-grey.png",
+        "assets/teeth/shorttooth-red.png",
+        false
+      );
       flex-direction: column;
 
       .small-teeth {
@@ -312,7 +318,6 @@ nav{
     justify-content: space-between;
     align-items: flex-start;
   }
-
 }
 
 header {

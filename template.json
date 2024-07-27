@@ -13,6 +13,11 @@
       "crew": [],
       "acquaintances": [],
       "acquaintances_label": "BITD.Acquaintances",
+      "paramour": null,
+      "paramour_heat": {
+        "value": 0,
+        "max": 6
+      },
       "stress": {
         "value": [0],
         "max": 9,
@@ -24,8 +29,8 @@
         "max": 4,
         "max_default": 4,
         "value": [0],
-        "name": "BITD.Trauma",
-        "name_default": "BITD.Trauma",
+        "name": "BITD.Scandal",
+        "name_default": "BITD.Scandal",
         "options": [
           "Sentimental",
           "Wicked",
@@ -40,7 +45,7 @@
       },
       "healing-clock": [0],
       "experience": [0],
-      "experience_max": 8,
+      "experience_max": 10,
       "experience_clues": ["BITD.ClassExpClue3", "BITD.ClassExpClue2"],
       "coins": [0],
       "coins_stashed": [0],
@@ -67,42 +72,9 @@
       },
       "armor-uses": {
         "armor": 0,
-        "heavy": 0,
         "special": 0
       },
       "attributes": {
-        "mind": {
-          "exp": 0,
-          "exp_max": 8,
-          "bonus": 0,
-          "label": "BITD.SkillsMind",
-          "skills": {
-            "hunt": {
-              "label": "BITD.SkillsHunt",
-              "value": 0,
-              "max": 3,
-              "min": 0
-            },
-            "study": {
-              "label": "BITD.SkillsStudy",
-              "value": 0,
-              "max": 3,
-              "min": 0
-            },
-            "survey": {
-              "label": "BITD.SkillsSurvey",
-              "value": 0,
-              "max": 3,
-              "min": 0
-            },
-            "tinker": {
-              "label": "BITD.SkillsTinker",
-              "value": 0,
-              "max": 3,
-              "min": 0
-            }
-          }
-        },
         "body": {
           "exp": 0,
           "exp_max": 8,
@@ -112,25 +84,57 @@
             "skulk": {
               "label": "BITD.SkillsSkulk",
               "value": 0,
-              "max": 3,
+              "max": 4,
               "min": 0
             },
             "maneuver": {
               "label": "BITD.SkillsManeuver",
               "value": 0,
-              "max": 3,
+              "max": 4,
               "min": 0
             },
             "skirmish": {
               "label": "BITD.SkillsSkirmish",
               "value": 0,
-              "max": 3,
+              "max": 4,
               "min": 0
             },
             "wreck": {
               "label": "BITD.SkillsWreck",
               "value": 0,
-              "max": 3,
+              "max": 4,
+              "min": 0
+            }
+          }
+        },
+        "mind": {
+          "exp": 0,
+          "exp_max": 8,
+          "bonus": 0,
+          "label": "BITD.SkillsMind",
+          "skills": {
+            "hunt": {
+              "label": "BITD.SkillsHunt",
+              "value": 0,
+              "max": 4,
+              "min": 0
+            },
+            "study": {
+              "label": "BITD.SkillsStudy",
+              "value": 0,
+              "max": 4,
+              "min": 0
+            },
+            "survey": {
+              "label": "BITD.SkillsSurvey",
+              "value": 0,
+              "max": 4,
+              "min": 0
+            },
+            "tinker": {
+              "label": "BITD.SkillsTinker",
+              "value": 0,
+              "max": 4,
               "min": 0
             }
           }
@@ -144,25 +148,25 @@
             "attune": {
               "label": "BITD.SkillsChannel",
               "value": 0,
-              "max": 3,
+              "max": 4,
               "min": 0
             },
             "command": {
               "label": "BITD.SkillsCommand",
               "value": 0,
-              "max": 3,
+              "max": 4,
               "min": 0
             },
             "consort": {
               "label": "BITD.SkillsConsort",
               "value": 0,
-              "max": 3,
+              "max": 4,
               "min": 0
             },
             "sway": {
               "label": "BITD.SkillsSway",
               "value": 0,
-              "max": 3,
+              "max": 4,
               "min": 0
             }
           }
@@ -372,8 +376,8 @@
         "Gang": {
           "label": "BITD.Gang"
         },
-        "Expert": {
-          "label": "BITD.Expert"
+        "Colleague": {
+          "label": "BITD.Colleague"
         }
       },
       "gang_type": ["Adepts"],

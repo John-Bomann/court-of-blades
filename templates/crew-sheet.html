@@ -7,7 +7,7 @@
     <div id="crew-{{_id}}-name-alias" class="crew-name-alias grow-two flex-column">
       <div id="crew-{{_id}}-name-box" class="crew-name">
         <label for="crew-{{_id}}-name">{{localize "BITD.Name"}}</label>
-        <input type="text" id="crew-{{_id}}-name" name="name" value="{{name}}" placeholder="{{localize "BITD.CrewName"}}">
+        <input type="text" id="crew-{{_id}}-name" name="name" value="{{name}}" placeholder="{{localize "BITD.House"}}">
       </div>
 
       <div class="item-crew-rep flex-horizontal">
@@ -238,7 +238,7 @@
         <a class="item" data-tab="upgrades">{{localize "BITD.Upgrades"}}</a>
         <a class="item" data-tab="abilities">{{localize "BITD.Abilities"}}</a>
         <a class="item" data-tab="contacts">{{localize "BITD.Contacts"}}</a>
-        <a class="item" data-tab="cohorts">{{localize "BITD.Cohorts"}}</a>
+        <a class="item" data-tab="cohorts">{{localize "BITD.Retinues"}}</a>
         <a class="item" data-tab="prison">{{localize "BITD.Prison"}}</a>
         <a class="item" data-tab="notes">{{localize "BITD.Notes"}}</a>
         <a class="item" data-tab="all-items">{{localize "BITD.AllItems"}}</a>
@@ -358,10 +358,10 @@
             {{/if}}
       </div>
 
-    {{!-- Cohorts --}}
+    {{!-- Retinues --}}
     <div id="crew-{{_id}}-cohorts" class="crew-cohorts tab grow-two flex-vertical" data-tab="cohorts">
       <div class="label-stripe flex-horizontal">
-        <p>{{localize "BITD.Cohorts"}}</p>
+        <p>{{localize "BITD.Retinues"}}</p>
         <p><a class="add-item" data-item-type="cohort"><i class="fas fa-plus-square"></i></a></p>
       </div>
       <div class="cohorts flex-horizontal">

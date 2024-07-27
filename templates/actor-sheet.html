@@ -79,7 +79,7 @@
           </div>
 		
 		<div class="item-block flex-horizontal">
-          <div class="item-class-label"><a class="item-add-popup" data-distinct="true" data-item-type="crew">{{localize "BITD.CrewName"}}</a></div> 
+          <div class="item-class-label"><a class="item-add-popup" data-distinct="true" data-item-type="crew">{{localize "BITD.House"}}</a></div> 
           {{#each system.crew as |item id|}}
             {{#unless (eq item.name undefined)}}
               <div class="item flex-horizontal" data-item-id="{{item.id}}" data-item-type="{{item.type}}">
@@ -211,10 +211,6 @@
                 <input id="character-{{_id}}-armor-uses-armor" type="checkbox" name="system.armor-uses.armor" {{checked system.armor-uses.armor}}>
               </div>
               <div>
-                <label for="character-{{_id}}-armor-uses-heavy">{{localize "BITD.Heavy"}}</label>
-                <input id="character-{{_id}}-armor-uses-heavy" type="checkbox" name="system.armor-uses.heavy" {{checked system.armor-uses.heavy}}>
-              </div>
-              <div>
                 <label for="character-{{_id}}-armor-uses-special">{{localize "BITD.Special"}}</label>
                 <input id="character-{{_id}}-armor-uses-special" type="checkbox" name="system.armor-uses.special" {{checked system.armor-uses.special}}>
               </div>
@@ -257,7 +253,8 @@
       <nav class="tabs flex-horizontal">
         <a class="item" data-tab="abilities">{{localize "BITD.Abilities"}}</a>
         <a class="item" data-tab="loadout">{{localize "BITD.Loadout"}}</a>
-		<a class="item" data-tab="contacts">{{localize 'BITD.Contacts'}}</a>
+		    <a class="item" data-tab="contacts">{{localize 'BITD.Contacts'}}</a>
+        <a class="item" data-tab="paramour">{{localize "BITD.Paramour"}}</a>
         <a class="item" data-tab="character-notes">{{localize "BITD.Notes"}}</a>
         {{#if isGM}}
           <a class="item" data-tab="effects">{{localize "BITD.Effects"}}</a>
@@ -359,6 +356,32 @@
 			  {{/each}}
             {{/if}}
       </div>
+
+    <div id="character-{{_id}}-paramour" class="tab flex-vertical" data-tab="paramour">
+      <div class="label-stripe flex-horizontal">
+        <p>{{localize BITD.Paramour}}</p>
+      </div>
+      <div>Paramour</div>  
+      <div>Paramour data</div>
+      <div>
+        <div>Heat</div>
+        <div class="attributes-container">
+          {{#multiboxes system.paramour_heat.value}}
+
+          {{#times_from 0 system.paramour_heat.max}}
+          <input 
+              type="radio" 
+              id="attributes-{{../../../_id}}-{{skill_name}}-{{this}}" 
+              data-dtype="Number"
+              name="system.attributes.{{attribute_name}}.skills.{{skill_name}}.value" 
+              value="{{this}}"
+              >
+          <label for="attributes-{{../../../_id}}-{{skill_name}}-{{this}}"></label>
+          {{/times_from}}
+          {{/multiboxes}}
+        </div>
+      </div>
+    </div>
 
       {{!-- Active Effects --}}
       <div id="character-{{_id}}-effects" class="tab effects flex-vertical" data-tab="effects">
