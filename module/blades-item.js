@@ -92,7 +92,7 @@ export class BladesItem extends Item {
       itemData.img = null;
     }
     const html = await renderTemplate(
-      "systems/blades-in-the-dark/templates/chat/chat-item.html",
+      "systems/court-of-blades/templates/chat/chat-item.html",
       itemData
     );
     const chatData = {

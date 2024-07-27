@@ -13,7 +13,7 @@
       "crew": [],
       "acquaintances": [],
       "acquaintances_label": "BITD.Acquaintances",
-      "paramour": null,
+      "paramour": "",
       "paramour_heat": {
         "value": 0,
         "max": 6

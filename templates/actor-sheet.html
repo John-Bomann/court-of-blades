@@ -106,7 +106,7 @@
         <input type="text" id="character-{{_id}}-alias" class="alias" name="system.alias" value="{{system.alias}}">
       </div>
 
-      {{> "systems/blades-in-the-dark/templates/parts/coins.html" actor=actor}}
+      {{> "systems/court-of-blades/templates/parts/coins.html" actor=actor}}
     </div>
 
   </section>
@@ -253,7 +253,7 @@
       <nav class="tabs flex-horizontal">
         <a class="item" data-tab="abilities">{{localize "BITD.Abilities"}}</a>
         <a class="item" data-tab="loadout">{{localize "BITD.Loadout"}}</a>
-		    <a class="item" data-tab="contacts">{{localize 'BITD.Contacts'}}</a>
+		    <a class="item" data-tab="contacts">{{localize "BITD.Contacts"}}</a>
         <a class="item" data-tab="paramour">{{localize "BITD.Paramour"}}</a>
         <a class="item" data-tab="character-notes">{{localize "BITD.Notes"}}</a>
         {{#if isGM}}
@@ -358,25 +358,26 @@
       </div>
 
     <div id="character-{{_id}}-paramour" class="tab flex-vertical" data-tab="paramour">
-      <div class="label-stripe flex-horizontal">
-        <p>{{localize BITD.Paramour}}</p>
+      <div class="label-stripe">
+        <p>{{localize "BITD.Paramour"}}</p>
       </div>
-      <div>Paramour</div>  
-      <div>Paramour data</div>
+      <div id="character-{{_id}}-paramour-box">
+        <h3>Name</h3>
+        <input type="text" id="character-{{_id}}-paramour" class="paramour" name="system.paramour" value="{{system.paramour}}">
+      </div>
       <div>
         <div>Heat</div>
         <div class="attributes-container">
           {{#multiboxes system.paramour_heat.value}}
 
-          {{#times_from 0 system.paramour_heat.max}}
+          {{#times_from 1 system.paramour_heat.max}}
           <input 
-              type="radio" 
-              id="attributes-{{../../../_id}}-{{skill_name}}-{{this}}" 
-              data-dtype="Number"
-              name="system.attributes.{{attribute_name}}.skills.{{skill_name}}.value" 
-              value="{{this}}"
-              >
-          <label for="attributes-{{../../../_id}}-{{skill_name}}-{{this}}"></label>
+            type="radio" 
+            id="paramour-heat-{{this}}" 
+            data-dtype="Number"
+            name="system.paramour_heat.value" value="{{this}}"
+          >
+          <label for="paramour-heat-{{this}}"></label>
           {{/times_from}}
           {{/multiboxes}}
         </div>
@@ -388,7 +389,7 @@
         <div class="label-stripe">
           <p>{{localize "BITD.Effects"}}</p>
         </div>
-        {{> "systems/blades-in-the-dark/templates/parts/active-effects.html"}}
+        {{> "systems/court-of-blades/templates/parts/active-effects.html"}}
       </div>
 
       {{!-- Full Item List --}}
@@ -410,7 +411,7 @@
 
     </div>
     {{!-- Attributes --}}
-    {{> "systems/blades-in-the-dark/templates/parts/attributes.html" actor=actor}}
+    {{> "systems/court-of-blades/templates/parts/attributes.html" actor=actor}}
   </section>
 
 </form>

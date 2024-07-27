@@ -1,9 +1,11 @@
 <form class="{{cssClass}}" autocomplete="off">
   <header class="sheet-header">
-      <img src="{{img}}" data-edit="img" title="{{name}}"/>
-      <div class="header-fields">
-          <h1 class="charname"><input name="name" type="text" value="{{name}}" placeholder="{{localize 'BITD.Name'}}"/></h1>
-      </div>
+    <img src="{{img}}" data-edit="img" title="{{name}}" />
+    <div class="header-fields">
+      <h1 class="charname">
+        <input name="name" type="text" value="{{name}}" placeholder="{{localize 'BITD.Name'}}" />
+      </h1>
+    </div>
   </header>
 
   <section class="flex-vertical">
@@ -14,16 +16,14 @@
     <div>{{localize "BITD.ClassExpClueDescription"}}</div>
     <div><i>- {{localize "BITD.ClassExpClue2"}}</i></div>
     <div><i>- {{localize "BITD.ClassExpClue3"}}</i></div>
-    {{editor system.experience_clues target="system.experience_clues" button=true editable=editable}}
-
-    {{#if isGM}}
-      <!--
+    {{editor system.experience_clues target="system.experience_clues" button=true
+    editable=editable}} {{#if isGM}}
+    <!--
 	  <div class="label-stripe">{{localize "BITD.Logic"}}</div>
       <textarea name="system.logic">{{{system.logic}}}</textarea>
 	  -->
-      <div class="label-stripe">{{localize "BITD.Effects"}}</div>
-      <div id="effects">{{> "systems/blades-in-the-dark/templates/parts/active-effects.html"}}</div>
+    <div class="label-stripe">{{localize "BITD.Effects"}}</div>
+    <div id="effects">{{> "systems/court-of-blades/templates/parts/active-effects.html"}}</div>
     {{/if}}
   </section>
-
 </form>
