@@ -362,7 +362,7 @@
         <p>{{localize "BITD.Paramour"}}</p>
       </div>
       <div id="character-{{_id}}-paramour-box">
-        <h3>Name</h3>
+        <label for="character-{{id}}-paramour">Paramour Name</label>
         <input type="text" id="character-{{_id}}-paramour" class="paramour" name="system.paramour" value="{{system.paramour}}">
       </div>
       <div>
@@ -377,7 +377,7 @@
             data-dtype="Number"
             name="system.paramour_heat.value" value="{{this}}"
           >
-          <label for="paramour-heat-{{this}}"></label>
+          <label for="paramour-heat-{{this}}">{{this}}</label>
           {{/times_from}}
           {{/multiboxes}}
         </div>

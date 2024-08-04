@@ -9,7 +9,6 @@ export const preloadHandlebarsTemplates = async function () {
     // Actor Sheet Partials
     "systems/court-of-blades/templates/parts/coins.html",
     "systems/court-of-blades/templates/parts/attributes.html",
-    "systems/court-of-blades/templates/parts/turf-list.html",
     "systems/court-of-blades/templates/parts/cohort-block.html",
     "systems/court-of-blades/templates/parts/factions.html",
     "systems/court-of-blades/templates/parts/active-effects.html",

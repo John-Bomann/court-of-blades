@@ -16,10 +16,6 @@
     editable=editable}}
 
     <label class="label-stripe">{{localize "BITD.Turf"}}</label>
-    <div id="turf-container">
-      {{> "systems/court-of-blades/templates/parts/turf-list.html" turfs_data=system.turfs
-      can_edit=true editable=editable}}
-    </div>
     {{#if isGM}}
     <div class="label-stripe">{{localize "BITD.Effects"}}</div>
     <div id="effects">{{> "systems/court-of-blades/templates/parts/active-effects.html"}}</div>

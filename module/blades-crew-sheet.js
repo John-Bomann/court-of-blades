@@ -35,7 +35,7 @@ export class BladesCrewSheet extends BladesSheet {
     let turfs_max = sheetData.system.turf.max;
 
     sheetData.items.forEach((item) => {
-      if (item.type === "crew_type") {
+      if (item.type === "house_type") {
         Object.entries(item.system.turfs).forEach(([key, turf]) => {
           if (turf.name === "BITD.Turf") {
             turfs_amount += turf.value === true ? 1 : 0;
@@ -76,7 +76,7 @@ export class BladesCrewSheet extends BladesSheet {
         break;
       case "item":
         break;
-      case "crew_type":
+      case "house_type":
         break;
       case "ability":
         break;
@@ -197,7 +197,7 @@ export class BladesCrewSheet extends BladesSheet {
 
     // Import Acquaintance by playbook
     html.find(".import-contacts").click((ev) => {
-      const playbook = this.actor.items.filter((i) => i.type === "crew_type")[0]?.name;
+      const playbook = this.actor.items.filter((i) => i.type === "house_type")[0]?.name;
       BladesHelpers.import_pb_contacts(this.actor, playbook);
     });
   }

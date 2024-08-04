@@ -200,12 +200,41 @@
       "wanted": [0],
       "acquaintances": [],
       "acquaintances_label": "BITD.Contacts",
-      "hunting_grounds": [],
-      "hunting_grounds_label": "BITD.HuntingGrounds",
+      "spheres_of_influence": [
+        {
+          "sphere": "",
+          "perk": "",
+          "contact": ""
+        },
+        {
+          "sphere": "",
+          "perk": "",
+          "contact": ""
+        },
+        {
+          "sphere": "",
+          "perk": "",
+          "contact": ""
+        },
+        {
+          "sphere": "",
+          "perk": "",
+          "contact": ""
+        },
+        {
+          "sphere": "",
+          "perk": "",
+          "contact": ""
+        },
+        {
+          "sphere": "",
+          "perk": "",
+          "contact": ""
+        }
+      ],
       "scoundrel": {
         "add_trauma": 0,
-        "add_stress": 0,
-        "mastery": false
+        "add_stress": 0
       }
     },
     "\uD83D\uDD5B clock": {
@@ -223,7 +252,7 @@
       "description": "",
       "associated_class": "",
       "associated_faction": "",
-      "associated_crew_type": "",
+      "associated_house_type": "",
       "notes": ""
     }
   },
@@ -236,14 +265,12 @@
       "heritage",
       "background",
       "vice",
-      "hunting_grounds",
       "crew_upgrade",
       "cohort",
-      "crew_type",
-      "crew_reputation",
+      "house_type",
+      "house_reputation",
       "crew_upgrade",
-      "crew_ability",
-      "prison"
+      "crew_ability"
     ],
     "templates": {
       "default": {
@@ -363,10 +390,6 @@
     "vice": {
       "templates": ["default", "activatedEffect"]
     },
-    "hunting_grounds": {
-      "templates": ["default", "activatedEffect"],
-      "class": ""
-    },
     "cohort": {
       "templates": ["default"],
       "cohort": ["Gang"],
@@ -482,17 +505,17 @@
       },
       "armor": false
     },
-    "crew_reputation": {
+    "house_reputation": {
       "templates": ["default"]
     },
     "crew_upgrade": {
       "templates": ["ability", "logic", "activatedEffect"],
-      "crew_type": ""
+      "house_type": ""
     },
     "crew_ability": {
       "templates": ["ability", "activatedEffect"]
     },
-    "crew_type": {
+    "house_type": {
       "templates": ["activatedEffect"],
       "description": "",
       "experience_clues": "",
@@ -582,83 +605,6 @@
           "connects": []
         },
         "15": {
-          "name": "",
-          "value": "",
-          "description": "",
-          "connects": []
-        }
-      }
-    },
-    "prison": {
-      "description": "",
-      "turfs": {
-        "1": {
-          "name": "",
-          "value": "",
-          "description": "",
-          "connects": []
-        },
-        "2": {
-          "name": "",
-          "value": "",
-          "description": "",
-          "connects": []
-        },
-        "3": {
-          "name": "",
-          "value": "",
-          "description": "",
-          "connects": []
-        },
-        "4": {
-          "name": "",
-          "value": "",
-          "description": "",
-          "connects": []
-        },
-        "5": {
-          "name": "",
-          "value": "",
-          "description": "",
-          "connects": []
-        },
-        "6": {
-          "name": "BITD.Prison",
-          "value": 1,
-          "description": "",
-          "connects": []
-        },
-        "7": {
-          "name": "",
-          "value": "",
-          "description": "",
-          "connects": []
-        },
-        "8": {
-          "name": "",
-          "value": "",
-          "description": "",
-          "connects": []
-        },
-        "9": {
-          "name": "",
-          "value": "",
-          "description": "",
-          "connects": []
-        },
-        "10": {
-          "name": "",
-          "value": "",
-          "description": "",
-          "connects": []
-        },
-        "11": {
-          "name": "",
-          "value": "",
-          "description": "",
-          "connects": []
-        },
-        "12": {
           "name": "",
           "value": "",
           "description": "",

@@ -323,3 +323,34 @@ nav {
 header {
   margin-bottom: 10px;
 }
+
+.spheres-of-influence {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 8px;
+}
+
+.sphere-of-influence {
+  display: flex;
+  gap: 4px;
+  min-width: 400px;
+  flex-wrap: wrap;
+  flex-grow: 1;
+
+  h3 {
+    width: 100%;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
+
+.sphere-of-influence-name {
+  flex-basis: 100%;
+}
+
+.sphere-of-influence-contact,
+.sphere-of-influence-perk {
+  flex: 0.5;
+}

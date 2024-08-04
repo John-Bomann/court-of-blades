@@ -10,13 +10,12 @@ export class BladesHelpers {
   static removeDuplicatedItemType(item_data, actor) {
     let dupe_list = [];
     let distinct_types = [
-      "crew_type",
-      "crew_reputation",
+      "house_type",
+      "house_reputation",
       "class",
       "vice",
       "background",
       "heritage",
-      "prison",
     ];
     let allowed_types = ["item"];
     let should_be_distinct = distinct_types.includes(item_data.type);
@@ -277,7 +276,7 @@ export class BladesHelpers {
       );
     } else if (actor_type == "crew") {
       playbook_acquaintances = all_acquaintances.filter(
-        (i) => i.system.associated_crew_type === selected_playbook
+        (i) => i.system.associated_house_type === selected_playbook
       );
     }
     return playbook_acquaintances;
