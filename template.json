@@ -83,24 +83,28 @@
           "skills": {
             "skulk": {
               "label": "BITD.SkillsSkulk",
+              "tooltip": "BITD.SkillsSkulkTooltip",
               "value": 0,
               "max": 4,
               "min": 0
             },
             "maneuver": {
               "label": "BITD.SkillsManeuver",
+              "tooltip": "BITD.SkillsManeuverTooltip",
               "value": 0,
               "max": 4,
               "min": 0
             },
             "skirmish": {
               "label": "BITD.SkillsSkirmish",
+              "tooltip": "BITD.SkillsSkirmishTooltip",
               "value": 0,
               "max": 4,
               "min": 0
             },
             "wreck": {
               "label": "BITD.SkillsWreck",
+              "tooltip": "BITD.SkillsWreckTooltip",
               "value": 0,
               "max": 4,
               "min": 0
@@ -115,24 +119,28 @@
           "skills": {
             "hunt": {
               "label": "BITD.SkillsHunt",
+              "tooltip": "BITD.SkillsHuntTooltip",
               "value": 0,
               "max": 4,
               "min": 0
             },
             "study": {
               "label": "BITD.SkillsStudy",
+              "tooltip": "BITD.SkillsStudyTooltip",
               "value": 0,
               "max": 4,
               "min": 0
             },
             "survey": {
               "label": "BITD.SkillsSurvey",
+              "tooltip": "BITD.SkillsSurveyTooltip",
               "value": 0,
               "max": 4,
               "min": 0
             },
             "tinker": {
               "label": "BITD.SkillsTinker",
+              "tooltip": "BITD.SkillsTinkerTooltip",
               "value": 0,
               "max": 4,
               "min": 0
@@ -147,24 +155,28 @@
           "skills": {
             "attune": {
               "label": "BITD.SkillsChannel",
+              "tooltip": "BITD.SkillsChannelTooltip",
               "value": 0,
               "max": 4,
               "min": 0
             },
             "command": {
               "label": "BITD.SkillsCommand",
+              "tooltip": "BITD.SkillsCommandTooltip",
               "value": 0,
               "max": 4,
               "min": 0
             },
             "consort": {
               "label": "BITD.SkillsConsort",
+              "tooltip": "BITD.SkillsConsortTooltip",
               "value": 0,
               "max": 4,
               "min": 0
             },
             "sway": {
               "label": "BITD.SkillsSway",
+              "tooltip": "BITD.SkillsSwayTooltip",
               "value": 0,
               "max": 4,
               "min": 0

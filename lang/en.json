@@ -186,6 +186,10 @@
   "BITD.SkillsStudy": "Study",
   "BITD.SkillsSurvey": "Survey",
   "BITD.SkillsTinker": "Tinker",
+  "BITD.SkillsHuntTooltip": "When you Hunt, you carefully track a target.<br><br>You might follow a carriage as it crosses the city. You may navigate the press of the crowd to find a sight-line on the hangman at the execution. You might unobtrusively tail a corrupt priest, but Skulk might be better.",
+  "BITD.SkillsStudyTooltip": "When you Study, you scrutinize details and interpret evidence.<br><br>You might decode an enciphered message or occult ritual. You might follow the money to draw connections between hired bravos and your rival. You might assume an enemy's current intentions based on the number of warships they have docked in the harbor, but Survey might be better.",
+  "BITD.SkillsSurveyTooltip": "When you Survey, you observe the situation and anticipate outcomes.<br><br>You might scan a roof-line for hidden assassins. Maybe you recognize the mark separating gang territories in the Twist. You might recognize the embroidery on a jacket as distinctive to a rival House's favorite tailor, but Study might be better.",
+  "BITD.SkillsTinkerTooltip": "When you Tinker, you fiddle with devices and mechanisms.<br><br>You might soundlessly pick a lock and slip inside a room your enemies thought secure. You might quickly navigate a puzzle box. You might set a cunning clockwork trap for a foe, but Hunt might be better.",
 
   "BITD.SkillsBody": "Body",
   "BITD.SkillsBodyShort": "Body",
@@ -193,6 +197,10 @@
   "BITD.SkillsManeuver": "Maneuver",
   "BITD.SkillsSkirmish": "Skirmish",
   "BITD.SkillsWreck": "Wreck",
+  "BITD.SkillsSkulkTooltip": "When you Skulk, you move carefully so as to avoid notice.<br><br>You might keep to the shadows to avoid the attention of a guard. You might cobble together a disguise to pass as a rival House's courier. You might soundlessly pry open a window to secure entrance to a villa, though Tinker might be better.",
+  "BITD.SkillsManeuverTooltip": "When you Maneuver, you traverse quickly and skillfully.<br><br>You might leap from roof-top to roof-top with a running start. You might navigate the tricky steps of a fashionable new dance. You might carefully lie by omission, but Consort might be better.",
+  "BITD.SkillsSkirmishTooltip": "When you Skirmish, you entangle a target in combat.<br><br>You might slip a knife into the ribs of the street-tough hired to kill you. You might fight an elaborate duel with an affronted rival. You might spring from the shadows to neutralize the agent on your tail, but Wreck might be better.",
+  "BITD.SkillsWreckTooltip": "When you Wreck, you utilize overwhelming force against a person or object.<br><br>You might use acid to melt a tricky lock on a strongbox. A chair across the gang boss' teeth might be your diplomacy of choice. You might twist the weave of magic to incinerate a foe, but Channel might be better.",
 
   "BITD.SkillsSpirit": "Spirit",
   "BITD.SkillsSpiritShort": "Spirit",
@@ -200,6 +208,10 @@
   "BITD.SkillsCommand": "Command",
   "BITD.SkillsConsort": "Consort",
   "BITD.SkillsSway": "Sway",
+  "BITD.SkillsChannelTooltip": "When you Channel, you open your mind to arcane power and draw on sorcerous might.<br><br>You might navigate the tricky syllables of an ancient spell of binding, or you quickly summon a magical ward to stave off damage. You may also identify a recently uncovered artifact, but Study might be better.",
+  "BITD.SkillsCommandTooltip": "When you Command, you compel obedience.<br><br>You might glare down a handful of thugs in an alleyway. With a cutting remark you may compel a fop to retract an insult. You might demand information from mercenaries in league with your House, but Consort might be better.",
+  "BITD.SkillsConsortTooltip": "When you Consort, you socialize amongst friends.<br><br>When you Consort, you are behaving as you would amongst friends. You might chat up the friendly tavern owner in hopes of learning when the diplomat was last seen alive. With a drink and a chat, you may draw a secret from a confidant. You might use a disguise and forged papers to bluff past a checkpoint, but Skulk might be better.",
+  "BITD.SkillsSwayTooltip": "When you Sway, you influence with guile, charm, or argument.<br><br>With a honeyed words you might make a good impression upon the Prince's chamberlain. You might provide convenient evidence to the captain of the Watch, implicating a rival. You might engage in debate at a dinner party and try to win on the basis of being the better orator, but Maneuver might be better.",
 
   "BITD.AddAbility": "Add Ability",
   "BITD.AddItem": "Add Item",
