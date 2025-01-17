@@ -22,7 +22,8 @@ $coin_margin: 3px;
     flex-grow: 2;
   }
   .item-control {
-    flex-grow: 1;
+    width: 15px;
+    padding: 0px 20px;
   }
   .item-body,
   .item-class-label {
@@ -200,7 +201,8 @@ nav {
   }
 
   .item-control {
-    flex-grow: 0;
+    width: 15px;
+    padding: 0px 20px;
   }
 
   .cohort-body {

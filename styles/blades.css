@@ -609,7 +609,8 @@
   flex-grow: 2;
 }
 .blades-in-the-dark.crew.sheet .item .item-control {
-  flex-grow: 1;
+  width: 15px;
+  padding: 0px 20px;
 }
 .blades-in-the-dark.crew.sheet .item .item-body,
 .blades-in-the-dark.crew.sheet .item .item-class-label {
@@ -980,7 +981,8 @@
   padding-bottom: 2px;
 }
 .blades-in-the-dark.crew.sheet .cohorts .item-control {
-  flex-grow: 0;
+  width: 15px;
+  padding: 0px 20px;
 }
 .blades-in-the-dark.crew.sheet .cohorts .cohort-body img {
   border: 2px solid #191813;
@@ -1365,13 +1367,16 @@
 .blades-in-the-dark.actor.pc * .character-stress label[for$="-0"] {
   margin-right: 0px;
 }
-.blades-in-the-dark.actor.pc * .abilities .item-name, .blades-in-the-dark.actor.pc * .loadout .item-name {
+.blades-in-the-dark.actor.pc * .abilities .item-name,
+.blades-in-the-dark.actor.pc * .loadout .item-name {
   width: 100px;
 }
-.blades-in-the-dark.actor.pc * .abilities .item-body, .blades-in-the-dark.actor.pc * .loadout .item-body {
+.blades-in-the-dark.actor.pc * .abilities .item-body,
+.blades-in-the-dark.actor.pc * .loadout .item-body {
   width: auto;
 }
-.blades-in-the-dark.actor.pc * .abilities .item-description, .blades-in-the-dark.actor.pc * .loadout .item-description {
+.blades-in-the-dark.actor.pc * .abilities .item-description,
+.blades-in-the-dark.actor.pc * .loadout .item-description {
   width: 260px;
 }
 .blades-in-the-dark.actor.pc * .abilities .label-stripe p:first-child {
@@ -1433,7 +1438,7 @@
 }
 .blades-in-the-dark.actor.pc * .harm-armor .character-harm table th {
   background-color: #191813;
-  color: #EEEFFF;
+  color: #eeefff;
 }
 .blades-in-the-dark.actor.pc * .harm-armor .character-harm table input[type=text] {
   width: 100%;
@@ -1498,7 +1503,7 @@
 }
 .blades-in-the-dark.actor.pc * .attributes .stripe {
   background-color: #191813;
-  color: #EEEFFF;
+  color: #eeefff;
   font-size: 17px;
   padding-left: 5px;
 }
@@ -1588,7 +1593,7 @@
   display: none;
 }
 .blades-in-the-dark.actor.pc * .attributes .attributes-container input:checked ~ label {
-  background-color: #EEEFFF;
+  background-color: #eeefff;
 }
 .blades-in-the-dark.actor.pc * .attributes .attributes-container input:checked + label {
   transition: filter 0.1s;
@@ -1619,7 +1624,8 @@
   flex-grow: 2;
 }
 .blades-in-the-dark.actor.pc * .item .item-control {
-  flex-grow: 1;
+  width: 15px;
+  padding: 0px 20px;
 }
 .blades-in-the-dark.actor.pc * .item .item-body,
 .blades-in-the-dark.actor.pc * .item .item-class-label {
@@ -1699,7 +1705,8 @@
   flex-grow: 2;
 }
 .blades-in-the-dark.item.sheet .item .item-control {
-  flex-grow: 1;
+  width: 15px;
+  padding: 0px 20px;
 }
 .blades-in-the-dark.item.sheet .item .item-body,
 .blades-in-the-dark.item.sheet .item .item-class-label {

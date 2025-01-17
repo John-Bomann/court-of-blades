@@ -1,10 +1,8 @@
 // ITEM
 .item {
-
   justify-content: space-between;
 
   .item-body {
-
     margin-bottom: 10px;
     * {
       margin-right: 10px;
@@ -20,7 +18,8 @@
     flex-grow: 2;
   }
   .item-control {
-    flex-grow: 1;
+    width: 15px;
+    padding: 0px 20px;
   }
   .item-body,
   .item-class-label {
